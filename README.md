@@ -22,16 +22,13 @@ A:
 - Get free shit to use on that mission
 
 Q: What does this mod do?
-A:
-- It replaces the Shengong Bandage item in game with a larkwell themed care package.
+A: It replaces the Shengong Bandage item in game with a larkwell themed care package.
 
 Q: What does this care package contain?
-A:
-- Use it to find out :D.
+A: Use it to find out :D.
 
 Q: Any bugs or issues?
-A:
-- France still exists.
+A: France still exists.
 
 
 ## "Use to collect a carefully hand picked assortment of high quality wares from Larkwell Martinez to assist you in your first few days planetside. Nothing in this package can be brought back. A fairly priced product from Larkwell Martinez and fan favorite of the First Cohort. No Refunds."
