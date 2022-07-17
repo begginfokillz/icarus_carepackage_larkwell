@@ -1,6 +1,7 @@
 # Larkwell Martinez Care Package
+----------------------------
 Q: How to install this mod?
-
+----------------------------
 A:
 - Right click Icarus in your game library
 - Click Properties...
