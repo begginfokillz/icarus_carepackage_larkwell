@@ -4,6 +4,7 @@ A custom Care Package for the game Icarus
 Q: How to install this mod?
 
 A:
+
 -Right click Icarus in your game library
 -Click Properties...
 -Select Local Files tab
@@ -18,7 +19,9 @@ A:
 
 
 Q: How to use this mod?
+
 A: FOR REPLACER VARIANT:
+
 Research the Shengong Bandage in game.
 Buy a Shengong Bandage in game.
 Add a Shengong Bandage to your pre-mission loadout.
@@ -28,6 +31,7 @@ Activate the bandage from the inventory via the consume action.
 Get free shit to use on that mission
 
 A: FOR NEW ITEM VARIANT:
+
 Research the Larkwell Martinez 'Black Label' Care Package item in game.
 Buy a Larkwell Martinez 'Black Label' Care Package in game.
 Add a Larkwell Martinez 'Black Label' Care Package to your pre-mission loadout.
@@ -37,6 +41,7 @@ Activate the care package from the inventory via the consume action.
 Get free shit to use on that mission
 
 Q: What does this mod do? 
+
 A: It either replaces the Shengong Bandage item in game with a larkwell themed care package, or adds a brand new item with the same name, depending on which variant you chose.
 
 
