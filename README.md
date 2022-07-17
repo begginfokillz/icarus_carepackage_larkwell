@@ -1,5 +1,5 @@
-# icarus_carepackage_larkwell
-A custom Care Package for the game Icarus
+# Larkwell Martinez 'Black Label' Care Package
+An item pack for the game Icarus
 
 Q: How to install this mod?
 
@@ -46,3 +46,5 @@ Use it to find out :D.
 
 Q: Any bugs or issues?
 A: France still exists.
+
+## "A fairly priced product from Larkwell Martinez and fan favorite of the First Cohort. No Refunds."
