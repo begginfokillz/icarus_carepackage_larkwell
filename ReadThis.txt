@@ -31,5 +31,3 @@ A:
 Q: Any bugs or issues?
 A:
 - France still exists.
-
-Made by Eric Smith
