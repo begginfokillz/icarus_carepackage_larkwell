@@ -14,8 +14,9 @@ A:
 - Remove LarkwellCarePackage.zip file from mod folder as you no longer need it.
 - If needed, research the Shengong Bandage in game if you have not already if using replacer version. If using new item version, research the new item called Larkwell Martinez 'Black Label' Care Package.
 
-
+----------------------------
 Q: How to use this mod?
+----------------------------
 A: FOR REPLACER VARIANT:
 - Research the Shengong Bandage in game.
 - Buy a Shengong Bandage in game.
@@ -34,7 +35,9 @@ A: FOR NEW ITEM VARIANT:
 - Activate the care package from the inventory via the consume action.
 - Get free shit to use on that mission
 
+----------------------------
 Q: What does this mod do? 
+----------------------------
 A: It either replaces the Shengong Bandage item in game with a larkwell themed care package, or adds a brand new item with the same name, depending on which variant you chose.
 
 
