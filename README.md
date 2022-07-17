@@ -1,7 +1,6 @@
 # Larkwell Martinez Care Package
 Q: How to install this mod?
 A:
-
 - Right click Icarus in your game library
 - Click Properties...
 - Select Local Files tab
@@ -14,7 +13,6 @@ A:
 
 Q: How to use this mod?
 A:
-
 - Research the Shengong Bandage in game.
 - Buy a Shengong Bandage in game.
 - Add a Shengong Bandage to your pre-mission loadout.
@@ -25,17 +23,14 @@ A:
 
 Q: What does this mod do?
 A:
-
 - It replaces the Shengong Bandage item in game with a larkwell themed care package.
 
 Q: What does this care package contain?
 A:
-
 - Use it to find out :D.
 
 Q: Any bugs or issues?
 A:
-
 - France still exists.
 
 
