@@ -5,17 +5,17 @@ Q: How to install this mod?
 
 A:
 
--Right click Icarus in your game library
--Click Properties...
--Select Local Files tab
--Click Browse
--(or locate the game folder any other way)
--Go to steamapps\common\Icarus\Icarus\Content\Paks as a file directory. If there is no mods folder, create one inside Paks
--If done right, it will now have a directory like this: steamapps\common\Icarus\Icarus\Content\Paks\mods.
--Download LarkwellCarePackage.zip file from mod page and put it in the mods folder.
--Extract either LarkwellCarePackageReplacer _P.pak file OR LarkwellCarePackageNewItem _P.pak file from that downloaded .zip file and put it in the mods folder. USE ONLY ONE .PAK -FILE! ONLY ONE OF THE TWO CAN BE USED AT ONCE!
--Remove LarkwellCarePackage.zip file from mod folder as you no longer need it.
--If needed, research the Shengong Bandage in game if you have not already if using replacer version. If using new item version, research the new item called Larkwell Martinez 'Black Label' Care Package.
+Right click Icarus in your game library
+Click Properties.
+Select Local Files tab
+Click Browse
+(or locate the game folder any other way)
+Go to steamapps\common\Icarus\Icarus\Content\Paks as a file directory. If there is no mods folder, create one inside Paks
+If done right, it will now have a directory like this: steamapps\common\Icarus\Icarus\Content\Paks\mods.
+Download LarkwellCarePackage.zip file from mod page and put it in the mods folder.
+Extract either LarkwellCarePackageReplacer _P.pak file OR LarkwellCarePackageNewItem _P.pak file from that downloaded .zip file and put it in the mods folder. USE ONLY ONE .PAK -FILE! ONLY ONE OF THE TWO CAN BE USED AT ONCE!
+Remove LarkwellCarePackage.zip file from mod folder as you no longer need it.
+If needed, research the Shengong Bandage in game if you have not already if using replacer version. If using new item version, research the new item called Larkwell Martinez 'Black Label' Care Package.
 
 
 Q: How to use this mod?
