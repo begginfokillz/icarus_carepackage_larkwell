@@ -6,8 +6,8 @@ A:
 - Select Local Files tab
 - Click Browse
 - (or locate the game folder any other way)
-- Go to steamapps\common\Icarus\Icarus\Icarus\Icarus\Content\Paks as a file directory. If there is no mods folder, create one inside Paks
-- If done right, it will now have a directory like this: steamapps\common\Icarus\Icarus\Icarus\Icarus\Content\Paks\mods.
+- Go to steamapps\common\Icarus\Icarus\Content\Paks as a file directory. If there is no mods folder, create one inside Paks
+- If done right, it will now have a directory like this: steamapps\common\Icarus\Icarus\Content\Paks\mods.
 - Download LarkwellCarePackage.zip file from mod page and put it in the mods folder.
 - Extract LarkwellCarePackage _P.pak file from that downloaded .zip file and put it in the mods folder. Overwrite as needed.
 - Remove LarkwellCarePackage.zip file from mod folder as you no longer need it.
