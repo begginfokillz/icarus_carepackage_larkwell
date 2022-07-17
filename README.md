@@ -32,3 +32,6 @@ A:
 Q: Any bugs or issues?
 A:
 - France still exists.
+
+
+## "Use to collect a carefully hand picked assortment of high quality wares from Larkwell Martinez to assist you in your first few days planetside. Nothing in this package can be brought back. A fairly priced product from Larkwell Martinez and fan favorite of the First Cohort. No Refunds."
