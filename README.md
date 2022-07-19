@@ -13,7 +13,7 @@ A:
 - Download LarkwellCarePackage.zip file from mod page and put it in the mods folder.
 - Extract either LarkwellCarePackageReplacer _P.pak file OR LarkwellCarePackageNewItem _P.pak file from that downloaded .zip file and put it in the mods folder. USE ONLY ONE .PAK FILE! ONLY ONE OF THE TWO CAN BE USED AT ONCE!
 - Remove LarkwellCarePackage.zip file from mod folder as you no longer need it.
-- If needed, research the Shengong Bandage in game if you have not already if using replacer version. If using new item version, research the new item called Larkwell Martinez 'Black Label' Care Package.
+- If needed, research the Shengong Bandage in game in workshop tab from hab screen if you have not already if using replacer version. If using new item version, research the new item called Larkwell Martinez 'Black Label' Care Package in workshop tab from hab screen.
 
 ----------------------------
 Q: How to use this mod?
