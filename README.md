@@ -18,13 +18,14 @@ A:
 ----------------------------
 Q: How to use this mod?
 ----------------------------
-A: FOR BADAGE REPLACER VARIANT:
-- Research the Shengong Bandage in game.
-- Buy a Shengong Bandage in game.
-- Add a Shengong Bandage to your pre-mission loadout.
+A: FOR NEW ITEM VARIANT:
+- Go to workshop tab while in orbit.
+- Buy the blueprint for the care package in game.
+- Buy the actual item for the care package in game.
+- Add a Larkwell Care Package to your pre-mission loadout.
 - Go Planetside on any mission.
-- Retrieve the bandage from the dropship.
-- Activate the bandage from the inventory via the consume action.
+- Retrieve the Care Package from the dropship.
+- Activate the Care Package from the inventory via the consume action.
 - Get free shit to use on that mission
 ----------------------------
 Q: What does this mod do? 
