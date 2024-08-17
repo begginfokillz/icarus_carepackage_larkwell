@@ -1,40 +1,45 @@
-# Larkwell Martinez Care Package
+# Larkwell Martinez Care Package Mod Guide
 ----------------------------
 Q: How to install this mod?
 ----------------------------
-A:
-- Right click Icarus in your game library
-- Click Properties...
-- Select Local Files tab
--Click Browse
-- (or locate the game folder any other way)
-- Go to steamapps\common\Icarus\Icarus\Content\Paks as a file directory. If there is no mods folder, create one inside Paks
-- If done right, it will now have a directory like this: steamapps\common\Icarus\Icarus\Content\Paks\mods.
-- Download LarkwellCarePackage.zip file from mod page and put it in the mods folder.
-- Extract either LarkwellCarePackageReplacer _P.pak file to the mods folder.
-- Remove LarkwellCarePackage.zip file from mod folder as you no longer need it.
-- If needed, research the Shengong Bandage in game in workshop tab from hab screen if you have not already done so.
+A: 
+Installation process is as follows: 
+-Right click Icarus in your game library
+-Click Properties...
+-Select Local Files tab -Click Browse (or locate the game folder any other way)
+-Go to steamapps\common\Icarus\Icarus\Content\Paks as a file directory. If there is no mods folder, create one inside Paks
+-If done right, it will now have a directory like this: steamapps\common\Icarus\Icarus\Content\Paks\mods.
+-Download LarkwellCarePackage.zip file from mod page and put it in the mods folder.
+-Extract LarkwellCarePackage.pak file from the .zip file and put it in the mods folder.
+-Remove LarkwellCarePackage.zip file from mod folder as you no longer need it.
 
 ----------------------------
 Q: How to use this mod?
 ----------------------------
-A: FOR NEW ITEM VARIANT:
-- Go to workshop tab while in orbit.
-- Buy the blueprint for the care package in game.
-- Buy the actual item for the care package in game.
-- Add a Larkwell Care Package to your pre-mission loadout.
-- Go Planetside on any mission.
-- Retrieve the Care Package from the dropship.
-- Activate the Care Package from the inventory via the consume action.
-- Get free shit to use on that mission
+A: 
+Usage process is as follows:
+-Go to workshop tab while in orbit.
+-Buy the blueprint for any of the 6 care packages in game.
+-Buy the actual item for the care package in game.
+-Add a Care Package to your pre-mission loadout.
+-Go Planetside on any mission.
+-Retrieve the Care Package from the dropship.
+-Activate the Care Package from the inventory via the consume action.
+-Get free shit to use on that mission
+
+Updates can be done via mod manager (google it), or waiting for me to get off my ass and actually update manually, which might be longer.
+
+Known bugs:
+-The French
+
 ----------------------------
 Q: What does this mod do? 
 ----------------------------
-A: It replaces the Shengong Bandage item in game with a larkwell themed care package.
+A: It adds 7 different care packages to the orbital workshop in game for use in the field.
 
-Q: What does this care package contain? A:
+Q: What do these care packages contain?
 
-Use it to find out :D.
+A: Use it to find out :D.
 
 Q: Any bugs or issues?
 A: France still exists.
