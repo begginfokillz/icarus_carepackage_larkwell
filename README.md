@@ -4,13 +4,21 @@ Q: How to install this mod?
 ----------------------------
 A: 
 Installation process is as follows: 
+
 -Right click Icarus in your game library
+
 -Click Properties...
+
 -Select Local Files tab -Click Browse (or locate the game folder any other way)
+
 -Go to steamapps\common\Icarus\Icarus\Content\Paks as a file directory. If there is no mods folder, create one inside Paks
+
 -If done right, it will now have a directory like this: steamapps\common\Icarus\Icarus\Content\Paks\mods.
+
 -Download LarkwellCarePackage.zip file from mod page and put it in the mods folder.
+
 -Extract LarkwellCarePackage.pak file from the .zip file and put it in the mods folder.
+
 -Remove LarkwellCarePackage.zip file from mod folder as you no longer need it.
 
 ----------------------------
@@ -19,12 +27,19 @@ Q: How to use this mod?
 A: 
 Usage process is as follows:
 -Go to workshop tab while in orbit.
+
 -Buy the blueprint for any of the 6 care packages in game.
+
 -Buy the actual item for the care package in game.
+
 -Add a Care Package to your pre-mission loadout.
+
 -Go Planetside on any mission.
+
 -Retrieve the Care Package from the dropship.
+
 -Activate the Care Package from the inventory via the consume action.
+
 -Get free shit to use on that mission
 
 Updates can be done via mod manager (google it), or waiting for me to get off my ass and actually update manually, which might be longer.
