@@ -4,14 +4,13 @@
       "name": "Larkwell Care Package",
       "author": "Eric",
       "version": "5.0",
-      "compatibility": "w134",
-      "description": "Adds multiple care packges to the game for use in the filed. No Refunds.",
+      "compatibility": "w149",
+      "description": "Adds multiple care packges to the game for use in the field. No Refunds.",
       "files": {
-        "pak": "https://github.com/begginfokillz/icarus_carepackage_larkwell/tree/main",
-        "exmodz": "WTF even is this format?"
+        "pak": "https://github.com/begginfokillz/icarus_carepackage_larkwell/tree/main"
       },
-      "imageURL": "A direct download URL to an image that will be displayed in the mod list (optional)",
-      "readmeURL": "A link to the 'raw' version of your mod's README"
+      "imageURL": "",
+      "readmeURL": "https://github.com/begginfokillz/icarus_carepackage_larkwell/blob/main/README.md"
     }
   ]
 }
