@@ -1,0 +1,50 @@
+name: Sync issue labels
+
+# Creates / updates this repo's issue labels from the list below.
+# Runs automatically the first time this file lands on main (and whenever you edit it),
+# and can be run by hand from the Actions tab -> "Sync issue labels" -> Run workflow.
+# It only uses GitHub's own `gh` CLI with the repo's built-in token - no third-party actions.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/labels.yml'
+
+permissions:
+  issues: write
+
+jobs:
+  sync-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create / update labels
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          create() { gh label create "$1" --color "$2" --description "$3" --force; }
+
+          # --- Bugs & triage ---
+          create "bug"             "d73a4a" "Something isn't working"
+          create "crash"           "b60205" "Game crash or hard failure"
+          create "compatibility"   "fbca04" "Broke after an Icarus game / weekly update"
+          create "needs-info"      "d876e3" "Waiting on more detail from the reporter"
+          create "confirmed"       "0e8a16" "Reproduced and verified"
+          create "duplicate"       "cfd3d7" "Already reported elsewhere"
+          create "wontfix"         "ffffff" "This will not be worked on"
+          create "invalid"         "e4e669" "Doesn't look like a real issue"
+
+          # --- Requests & content ---
+          create "enhancement"     "a2eeef" "New feature or improvement"
+          create "content request" "1d76db" "Request for new items / care packages"
+          create "balance"         "5319e7" "Tuning prices, contents or values"
+          create "question"        "cc317c" "General question or support"
+
+          # --- Workflow & community ---
+          create "good first issue" "7057ff" "Good for newcomers"
+          create "help wanted"      "008672" "Extra attention or help welcome"
+          create "documentation"    "0075ca" "README / docs"
+          create "update"           "c5def5" "Weekly / game-update maintenance"
+          create "pinned"           "fef2c0" "Keep this issue open"

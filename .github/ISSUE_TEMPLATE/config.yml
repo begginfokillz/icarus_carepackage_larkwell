@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Icarus Mod Manager (install / update help)
+    url: https://github.com/Jimk72/Icarus_Software
+    about: Install and update mods with JimK72's Icarus Mod Manager.
+  - name: More Icarus mods
+    url: https://agentkush.github.io/Icarus-mods/
+    about: Browse the Icarus Mods site.
