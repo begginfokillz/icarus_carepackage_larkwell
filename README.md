@@ -3,23 +3,17 @@
 Q: How to install this mod?
 ----------------------------
 A: 
-Installation process is as follows: 
+Installation is now through JimK72's Icarus Mod Manager:
 
--Right click Icarus in your game library
+-Install the Mod Manager: https://github.com/Jimk72/Icarus_Software
 
--Click Properties...
+-Download LarkwellCarePackage.EXMODZ from this repo (or the Icarus Mods site).
 
--Select Local Files tab -Click Browse (or locate the game folder any other way)
+-Open the Mod Manager and import LarkwellCarePackage.EXMODZ.
 
--Go to steamapps\common\Icarus\Icarus\Content\Paks as a file directory. If there is no mods folder, create one inside Paks
+-Enable the mod, click Merge, then launch the game.
 
--If done right, it will now have a directory like this: steamapps\common\Icarus\Icarus\Content\Paks\mods.
-
--Download LarkwellCarePackage.zip file from mod page and put it in the mods folder.
-
--Extract LarkwellCarePackage.pak file from the .zip file and put it in the mods folder.
-
--Remove LarkwellCarePackage.zip file from mod folder as you no longer need it.
+(Prefer the old manual way? You can still drop LarkwellCarePackage_P.pak straight into steamapps\common\Icarus\Icarus\Content\Paks\mods.)
 
 ----------------------------
 Q: How to use this mod?
