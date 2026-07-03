@@ -4,13 +4,14 @@
       "name": "Larkwell Care Package",
       "author": "Eric",
       "version": "5.0",
-      "compatibility": "w149",
-      "description": "Adds multiple care packges to the game for use in the field. No Refunds.",
+      "compatibility": "All",
+      "description": "Adds multiple care packages to the game for use in the field. No Refunds.",
       "files": {
-        "pak": "https://github.com/begginfokillz/icarus_carepackage_larkwell/blob/main/LarkwellCarePackage_P.pak"
+        "exmodz": "https://github.com/begginfokillz/icarus_carepackage_larkwell/raw/main/LarkwellCarePackage.EXMODZ",
+        "pak": "https://github.com/begginfokillz/icarus_carepackage_larkwell/raw/main/LarkwellCarePackage_P.pak"
       },
-      "imageURL": "",
-      "readmeURL": "https://github.com/begginfokillz/icarus_carepackage_larkwell/blob/main/README.md"
+      "imageURL": "https://github.com/begginfokillz/icarus_carepackage_larkwell/raw/main/LarkwellCarePackage/Banner.png",
+      "readmeURL": "https://github.com/begginfokillz/icarus_carepackage_larkwell/raw/main/README.md"
     }
   ]
 }
