@@ -1,0 +1,22 @@
+name: Question / help
+description: Ask about installing or using the mod.
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Heads up: the README covers install (via the Icarus Mod Manager) and usage.
+  - type: textarea
+    id: question
+    attributes:
+      label: What's your question?
+    validations:
+      required: true
+  - type: input
+    id: mod-version
+    attributes:
+      label: Mod version (if relevant)
+      placeholder: "5.0"
+    validations:
+      required: false

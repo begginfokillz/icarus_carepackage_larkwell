@@ -1,0 +1,69 @@
+name: Bug report
+description: Something in the mod isn't working right.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug! The more detail you give, the faster it gets fixed.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What went wrong, and what did you expect instead?
+      placeholder: "When I unpack the care package, ..."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Buy the ... care package
+        2. Add it to the loadout
+        3. Drop planetside and consume it
+        4. See ...
+    validations:
+      required: true
+  - type: input
+    id: mod-version
+    attributes:
+      label: Mod version
+      description: From the mod card / modinfo (e.g. 5.0).
+      placeholder: "5.0"
+    validations:
+      required: true
+  - type: input
+    id: game-week
+    attributes:
+      label: Icarus game version / week
+      placeholder: "e.g. Week 240"
+    validations:
+      required: false
+  - type: dropdown
+    id: install-method
+    attributes:
+      label: How did you install it?
+      options:
+        - Icarus Mod Manager (.EXMODZ)
+        - Manual (.pak in Paks/mods)
+        - Other / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: other-mods
+    attributes:
+      label: Other mods installed
+      description: Conflicts with other mods are a common cause.
+      placeholder: "Turret Variants, ..."
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Screenshots or crash logs
+      description: "Drag in screenshots, or paste any error text. Logs live in %LOCALAPPDATA%\\Icarus\\Saved\\Logs."
+      render: shell
+    validations:
+      required: false

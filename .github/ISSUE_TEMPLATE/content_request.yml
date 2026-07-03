@@ -1,0 +1,29 @@
+name: Content / feature request
+description: Suggest a new care package, item, or feature.
+title: "[Request]: "
+labels: ["content request", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got an idea for the care packages? Pitch it here.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What would you like added or changed?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it be fun or useful?
+    validations:
+      required: false
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Specific items, quantities, price, tier, etc.
+    validations:
+      required: false

@@ -1,0 +1,44 @@
+name: Broke after a game update
+description: The mod stopped working after an Icarus weekly / patch update.
+title: "[Compat]: broke after Week "
+labels: ["compatibility", "bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Icarus's weekly updates often rename or move data, which can break mods. This helps pin down what changed.
+  - type: input
+    id: game-week
+    attributes:
+      label: Which update broke it?
+      placeholder: "e.g. Week 241"
+    validations:
+      required: true
+  - type: input
+    id: last-working
+    attributes:
+      label: Last working week / version
+      placeholder: "e.g. Week 240"
+    validations:
+      required: false
+  - type: textarea
+    id: symptom
+    attributes:
+      label: What breaks?
+      description: Missing items, crash on load, no workshop entry, etc.
+    validations:
+      required: true
+  - type: input
+    id: mod-version
+    attributes:
+      label: Mod version
+      placeholder: "5.0"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error text / logs
+      render: shell
+    validations:
+      required: false
