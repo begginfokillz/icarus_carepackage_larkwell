@@ -1,0 +1,4578 @@
+{
+    "name": "Larkwell Care Package",
+    "author": "Eric",
+    "version": "10.0",
+    "fileName": "LarkwellCarePackage",
+    "description": "Adds multiple care packages to the orbital workshop for use in the field. Buy the blueprint and the item, add a care package to your pre-mission loadout, then consume it planetside for a hand-picked assortment of gear. No refunds.",
+    "imageURL": "https://github.com/begginfokillz/icarus_carepackage_larkwell/raw/main/LarkwellCarePackage/Banner.png",
+    "readmeURL": "https://github.com/begginfokillz/icarus_carepackage_larkwell/raw/main/README.md",
+    "week": "All",
+    "Level2": "True",
+    "Rows": [
+        {
+            "CurrentFile": "Items-D_ItemsStatic.json",
+            "File_Items": [
+                {
+                    "Name": "Meta_Carepackage_Uranium_Raw",
+                    "Meshable": {
+                        "RowName": "Mesh_Meta_Crate_Printed"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Meta_Carepackage_Uranium_Raw"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Consumable": {
+                        "RowName": "Meta_Carepackage_Uranium_Raw"
+                    },
+                    "Usable": {
+                        "RowName": "Consume"
+                    },
+                    "Armour": {
+                        "DataTableName": "D_Actionable"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            },
+                            {
+                                "TagName": "Item.Meta.Package"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            }
+                        ],
+                        "ParentTags": []
+                    },
+                    "Metadata": {
+                        "RequiredFeatureLevel": {
+                            "RowName": "DangerousHorizons"
+                        }
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Agrizero",
+                    "Meshable": {
+                        "RowName": "Mesh_Meta_Crate_Printed"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Meta_Carepackage_Agrizero"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Consumable": {
+                        "RowName": "Meta_Carepackage_Agrizero"
+                    },
+                    "Usable": {
+                        "RowName": "Consume"
+                    },
+                    "Armour": {
+                        "DataTableName": "D_Actionable"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            },
+                            {
+                                "TagName": "Item.Meta.Package"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Medical",
+                    "Meshable": {
+                        "RowName": "Mesh_Meta_Crate_Printed"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Meta_Carepackage_Medical"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Consumable": {
+                        "RowName": "Meta_Carepackage_Medical"
+                    },
+                    "Usable": {
+                        "RowName": "Consume"
+                    },
+                    "Armour": {
+                        "DataTableName": "D_Actionable"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            },
+                            {
+                                "TagName": "Item.Meta.Package"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_MiniBase",
+                    "Meshable": {
+                        "RowName": "Mesh_Meta_Crate_Printed"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Meta_Carepackage_MiniBase"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Consumable": {
+                        "RowName": "Meta_Carepackage_MiniBase"
+                    },
+                    "Usable": {
+                        "RowName": "Consume"
+                    },
+                    "Armour": {
+                        "DataTableName": "D_Actionable"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            },
+                            {
+                                "TagName": "Item.Meta.Package"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_MiniBase_Deluxe",
+                    "Meshable": {
+                        "RowName": "Mesh_Meta_Crate_Printed"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Meta_Carepackage_MiniBase_Deluxe"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Consumable": {
+                        "RowName": "Meta_Carepackage_MiniBase_Deluxe"
+                    },
+                    "Usable": {
+                        "RowName": "Consume"
+                    },
+                    "Armour": {
+                        "DataTableName": "D_Actionable"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            },
+                            {
+                                "TagName": "Item.Meta.Package"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            }
+                        ],
+                        "ParentTags": []
+                    },
+                    "Metadata": {
+                        "RequiredFeatureLevel": {
+                            "RowName": "DangerousHorizons"
+                        }
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Excavation_Drilling",
+                    "Meshable": {
+                        "RowName": "Mesh_Meta_Crate_Printed"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Meta_Carepackage_Excavation_Drilling"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Consumable": {
+                        "RowName": "Meta_Carepackage_Excavation_Drilling"
+                    },
+                    "Usable": {
+                        "RowName": "Consume"
+                    },
+                    "Armour": {
+                        "DataTableName": "D_Actionable"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            },
+                            {
+                                "TagName": "Item.Meta.Package"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Excavation",
+                    "Meshable": {
+                        "RowName": "Mesh_Meta_Crate_Printed"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Meta_Carepackage_Excavation"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Consumable": {
+                        "RowName": "Meta_Carepackage_Excavation"
+                    },
+                    "Usable": {
+                        "RowName": "Consume"
+                    },
+                    "Armour": {
+                        "DataTableName": "D_Actionable"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            },
+                            {
+                                "TagName": "Item.Meta.Package"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Farmer",
+                    "Meshable": {
+                        "RowName": "Mesh_Meta_Crate_Printed"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Meta_Carepackage_Farmer"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Consumable": {
+                        "RowName": "Meta_Carepackage_Farmer"
+                    },
+                    "Usable": {
+                        "RowName": "Consume"
+                    },
+                    "Armour": {
+                        "DataTableName": "D_Actionable"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            },
+                            {
+                                "TagName": "Item.Meta.Package"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Weapons",
+                    "Meshable": {
+                        "RowName": "Mesh_Meta_Crate_Printed"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Meta_Carepackage_Weapons"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Consumable": {
+                        "RowName": "Meta_Carepackage_Weapons"
+                    },
+                    "Usable": {
+                        "RowName": "Consume"
+                    },
+                    "Armour": {
+                        "DataTableName": "D_Actionable"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            },
+                            {
+                                "TagName": "Item.Meta.Package"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Fuel",
+                    "Meshable": {
+                        "RowName": "Mesh_Meta_Crate_Printed"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Meta_Carepackage_Fuel"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Consumable": {
+                        "RowName": "Meta_Carepackage_Fuel"
+                    },
+                    "Usable": {
+                        "RowName": "Consume"
+                    },
+                    "Armour": {
+                        "DataTableName": "D_Actionable"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            },
+                            {
+                                "TagName": "Item.Meta.Package"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Ammo_Arrows",
+                    "Meshable": {
+                        "RowName": "Mesh_Meta_Crate_Printed"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Meta_Carepackage_Ammo_Arrows"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Consumable": {
+                        "RowName": "Meta_Carepackage_Ammo_Arrows"
+                    },
+                    "Usable": {
+                        "RowName": "Consume"
+                    },
+                    "Armour": {
+                        "DataTableName": "D_Actionable"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            },
+                            {
+                                "TagName": "Item.Meta.Package"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Ammo_Bullets",
+                    "Meshable": {
+                        "RowName": "Mesh_Meta_Crate_Printed"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Meta_Carepackage_Ammo_Bullets"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Consumable": {
+                        "RowName": "Meta_Carepackage_Ammo_Bullets"
+                    },
+                    "Usable": {
+                        "RowName": "Consume"
+                    },
+                    "Armour": {
+                        "DataTableName": "D_Actionable"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            },
+                            {
+                                "TagName": "Item.Meta.Package"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Larkwell",
+                    "Meshable": {
+                        "RowName": "Mesh_Meta_Crate_Printed"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Meta_Carepackage_Larkwell"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Consumable": {
+                        "RowName": "Meta_Carepackage_Larkwell"
+                    },
+                    "Usable": {
+                        "RowName": "Consume"
+                    },
+                    "Armour": {
+                        "DataTableName": "D_Actionable"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            },
+                            {
+                                "TagName": "Item.Meta.Package"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Guns",
+                    "Meshable": {
+                        "RowName": "Mesh_Meta_Crate_Printed"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Meta_Carepackage_Guns"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Consumable": {
+                        "RowName": "Meta_Carepackage_Guns"
+                    },
+                    "Usable": {
+                        "RowName": "Consume"
+                    },
+                    "Armour": {
+                        "DataTableName": "D_Actionable"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            },
+                            {
+                                "TagName": "Item.Meta.Package"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Biomass",
+                    "Meshable": {
+                        "RowName": "Mesh_Meta_Crate_Printed"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Meta_Carepackage_Biomass"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Consumable": {
+                        "RowName": "Meta_Carepackage_Biomass"
+                    },
+                    "Usable": {
+                        "RowName": "Consume"
+                    },
+                    "Armour": {
+                        "DataTableName": "D_Actionable"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            },
+                            {
+                                "TagName": "Item.Meta.Package"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            }
+                        ],
+                        "ParentTags": []
+                    },
+                    "Metadata": {
+                        "RequiredFeatureLevel": {
+                            "RowName": "GreatHunts"
+                        }
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_PetCare",
+                    "Meshable": {
+                        "RowName": "Mesh_Meta_Crate_Printed"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Meta_Carepackage_PetCare"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Consumable": {
+                        "RowName": "Meta_Carepackage_PetCare"
+                    },
+                    "Usable": {
+                        "RowName": "Consume"
+                    },
+                    "Armour": {
+                        "DataTableName": "D_Actionable"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_MetaItem"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            },
+                            {
+                                "TagName": "Item.Meta.Package"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Item.Meta.Consumable"
+                            },
+                            {
+                                "TagName": "MetaItem.DoNotReturn"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "MetaWorkshop-D_WorkshopItems.json",
+            "File_Items": [
+                {
+                    "Name": "Meta_Carepackage_Larkwell",
+                    "Item": {
+                        "RowName": "Meta_Carepackage_Larkwell"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 250
+                        },
+                        {
+                            "Meta": {
+                                "RowName": "Exotic1",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Agrizero",
+                    "Item": {
+                        "RowName": "Meta_Carepackage_Agrizero"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 250
+                        },
+                        {
+                            "Meta": {
+                                "RowName": "Exotic1",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Uranium_Raw",
+                    "Item": {
+                        "RowName": "Meta_Carepackage_Uranium_Raw"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 250
+                        },
+                        {
+                            "Meta": {
+                                "RowName": "Exotic_Uranium",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 250
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 250
+                        }
+                    ],
+                    "Metadata": {
+                        "RequiredFeatureLevel": {
+                            "RowName": "DangerousHorizons"
+                        }
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Medical",
+                    "Item": {
+                        "RowName": "Meta_Carepackage_Medical"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 250
+                        },
+                        {
+                            "Meta": {
+                                "RowName": "Exotic1",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Biomass",
+                    "Item": {
+                        "RowName": "Meta_Carepackage_Biomass"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 250
+                        },
+                        {
+                            "Meta": {
+                                "RowName": "Biomass",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ],
+                    "Metadata": {
+                        "RequiredFeatureLevel": {
+                            "RowName": "GreatHunts"
+                        }
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_PetCare",
+                    "Item": {
+                        "RowName": "Meta_Carepackage_PetCare"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 250
+                        },
+                        {
+                            "Meta": {
+                                "RowName": "Exotic1",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Farmer",
+                    "Item": {
+                        "RowName": "Meta_Carepackage_Farmer"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 250
+                        },
+                        {
+                            "Meta": {
+                                "RowName": "Exotic1",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Excavation_Drilling",
+                    "Item": {
+                        "RowName": "Meta_Carepackage_Excavation_Drilling"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 250
+                        },
+                        {
+                            "Meta": {
+                                "RowName": "Exotic1",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_MiniBase",
+                    "Item": {
+                        "RowName": "Meta_Carepackage_MiniBase"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 250
+                        },
+                        {
+                            "Meta": {
+                                "RowName": "Exotic1",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 100
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_MiniBase_Deluxe",
+                    "Item": {
+                        "RowName": "Meta_Carepackage_MiniBase_Deluxe"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 250
+                        },
+                        {
+                            "Meta": {
+                                "RowName": "Exotic_Uranium",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 250
+                        },
+                        {
+                            "Meta": {
+                                "RowName": "Exotic_Uranium",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 25
+                        }
+                    ],
+                    "Metadata": {
+                        "RequiredFeatureLevel": {
+                            "RowName": "DangerousHorizons"
+                        }
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Excavation",
+                    "Item": {
+                        "RowName": "Meta_Carepackage_Excavation"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 250
+                        },
+                        {
+                            "Meta": {
+                                "RowName": "Exotic1",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Weapons",
+                    "Item": {
+                        "RowName": "Meta_Carepackage_Weapons"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 250
+                        },
+                        {
+                            "Meta": {
+                                "RowName": "Exotic1",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Ammo_Arrows",
+                    "Item": {
+                        "RowName": "Meta_Carepackage_Ammo_Arrows"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 250
+                        },
+                        {
+                            "Meta": {
+                                "RowName": "Exotic1",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Ammo_Bullets",
+                    "Item": {
+                        "RowName": "Meta_Carepackage_Ammo_Bullets"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 250
+                        },
+                        {
+                            "Meta": {
+                                "RowName": "Exotic1",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Guns",
+                    "Item": {
+                        "RowName": "Meta_Carepackage_Guns"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 250
+                        },
+                        {
+                            "Meta": {
+                                "RowName": "Exotic1",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Fuel",
+                    "Item": {
+                        "RowName": "Meta_Carepackage_Fuel"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 250
+                        },
+                        {
+                            "Meta": {
+                                "RowName": "Exotic1",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 50
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Items-D_ItemTemplate.json",
+            "File_Items": [
+                {
+                    "Name": "Meta_Carepackage_Larkwell",
+                    "ItemStaticData": {
+                        "RowName": "Meta_Carepackage_Larkwell"
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Weapons",
+                    "ItemStaticData": {
+                        "RowName": "Meta_Carepackage_Weapons"
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Ammo_Arrows",
+                    "ItemStaticData": {
+                        "RowName": "Meta_Carepackage_Ammo_Arrows"
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Ammo_Bullets",
+                    "ItemStaticData": {
+                        "RowName": "Meta_Carepackage_Ammo_Bullets"
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Agrizero",
+                    "ItemStaticData": {
+                        "RowName": "Meta_Carepackage_Agrizero"
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Medical",
+                    "ItemStaticData": {
+                        "RowName": "Meta_Carepackage_Medical"
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Biomass",
+                    "ItemStaticData": {
+                        "RowName": "Meta_Carepackage_Biomass"
+                    },
+                    "Metadata": {
+                        "RequiredFeatureLevel": {
+                            "RowName": "GreatHunts"
+                        }
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_PetCare",
+                    "ItemStaticData": {
+                        "RowName": "Meta_Carepackage_PetCare"
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Farmer",
+                    "ItemStaticData": {
+                        "RowName": "Meta_Carepackage_Farmer"
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Excavation",
+                    "ItemStaticData": {
+                        "RowName": "Meta_Carepackage_Excavation"
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Excavation_Drilling",
+                    "ItemStaticData": {
+                        "RowName": "Meta_Carepackage_Excavation_Drilling"
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_MiniBase",
+                    "ItemStaticData": {
+                        "RowName": "Meta_Carepackage_MiniBase"
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_MiniBase_Deluxe",
+                    "ItemStaticData": {
+                        "RowName": "Meta_Carepackage_MiniBase_Deluxe"
+                    },
+                    "Metadata": {
+                        "RequiredFeatureLevel": {
+                            "RowName": "DangerousHorizons"
+                        }
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Guns",
+                    "ItemStaticData": {
+                        "RowName": "Meta_Carepackage_Guns"
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Fuel",
+                    "ItemStaticData": {
+                        "RowName": "Meta_Carepackage_Fuel"
+                    }
+                },
+                {
+                    "Name": "Meta_Carepackage_Uranium_Raw",
+                    "ItemStaticData": {
+                        "RowName": "Meta_Carepackage_Uranium_Raw"
+                    },
+                    "Metadata": {
+                        "RequiredFeatureLevel": {
+                            "RowName": "DangerousHorizons"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Talents-D_Talents.json",
+            "File_Items": [
+                {
+                    "Name": "Workshop_Meta_Carepackage_Larkwell",
+                    "ExtraData": {
+                        "RowName": "Meta_Carepackage_Larkwell",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_CarePackages"
+                    },
+                    "Position": {
+                        "X": 400,
+                        "Y": 750
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "Workshop_Meta_Carepackage_Ammo_Arrows",
+                    "ExtraData": {
+                        "RowName": "Meta_Carepackage_Ammo_Arrows",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_CarePackages"
+                    },
+                    "Position": {
+                        "X": 800,
+                        "Y": 750
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "Workshop_Meta_Carepackage_Weapons",
+                    "ExtraData": {
+                        "RowName": "Meta_Carepackage_Weapons",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_CarePackages"
+                    },
+                    "Position": {
+                        "X": 1200,
+                        "Y": 750
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "Workshop_Meta_Carepackage_Farmer",
+                    "ExtraData": {
+                        "RowName": "Meta_Carepackage_Farmer",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_CarePackages"
+                    },
+                    "Position": {
+                        "X": 1600,
+                        "Y": 750
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "Workshop_Meta_Carepackage_Agrizero",
+                    "ExtraData": {
+                        "RowName": "Meta_Carepackage_Agrizero",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_CarePackages"
+                    },
+                    "Position": {
+                        "X": 2000,
+                        "Y": 750
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "Workshop_Meta_Carepackage_Medical",
+                    "ExtraData": {
+                        "RowName": "Meta_Carepackage_Medical",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_CarePackages"
+                    },
+                    "Position": {
+                        "X": 2400,
+                        "Y": 750
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "Workshop_Meta_Carepackage_Ammo_Bullets",
+                    "ExtraData": {
+                        "RowName": "Meta_Carepackage_Ammo_Bullets",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_CarePackages"
+                    },
+                    "Position": {
+                        "X": 2800,
+                        "Y": 750
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "Workshop_Meta_Carepackage_Guns",
+                    "ExtraData": {
+                        "RowName": "Meta_Carepackage_Guns",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_CarePackages"
+                    },
+                    "Position": {
+                        "X": 3200,
+                        "Y": 750
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "Workshop_Meta_Carepackage_Excavation",
+                    "ExtraData": {
+                        "RowName": "Meta_Carepackage_Excavation",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_CarePackages"
+                    },
+                    "Position": {
+                        "X": 3600,
+                        "Y": 750
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "Workshop_Meta_Carepackage_Excavation_Drilling",
+                    "ExtraData": {
+                        "RowName": "Meta_Carepackage_Excavation_Drilling",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_CarePackages"
+                    },
+                    "Position": {
+                        "X": 4000,
+                        "Y": 750
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "Workshop_Meta_Carepackage_Fuel",
+                    "ExtraData": {
+                        "RowName": "Meta_Carepackage_Fuel",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_CarePackages"
+                    },
+                    "Position": {
+                        "X": 4400,
+                        "Y": 750
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "Workshop_Meta_Carepackage_PetCare",
+                    "ExtraData": {
+                        "RowName": "Meta_Carepackage_PetCare",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_CarePackages"
+                    },
+                    "Position": {
+                        "X": 4800,
+                        "Y": 750
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "Workshop_Meta_Carepackage_MiniBase",
+                    "ExtraData": {
+                        "RowName": "Meta_Carepackage_MiniBase",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_CarePackages"
+                    },
+                    "Position": {
+                        "X": 5200,
+                        "Y": 750
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    }
+                },
+                {
+                    "Name": "Workshop_Meta_Carepackage_MiniBase_Deluxe",
+                    "ExtraData": {
+                        "RowName": "Meta_Carepackage_MiniBase_Deluxe",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_CarePackages"
+                    },
+                    "Position": {
+                        "X": 5600,
+                        "Y": 750
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    },
+                    "RequiredFlags": [
+                        {
+                            "DataTableName": "D_DLCPackageData",
+                            "RowName": "Dangerous_Horizons"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Workshop_Meta_Carepackage_Biomass",
+                    "ExtraData": {
+                        "RowName": "Meta_Carepackage_Biomass",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_CarePackages"
+                    },
+                    "Position": {
+                        "X": 6000,
+                        "Y": 750
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    },
+                    "RequiredFlags": [
+                        {
+                            "DataTableName": "D_DLCPackageData",
+                            "RowName": "Great_Hunts"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Workshop_Meta_Carepackage_Uranium_Raw",
+                    "ExtraData": {
+                        "RowName": "Meta_Carepackage_Uranium_Raw",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_CarePackages"
+                    },
+                    "Position": {
+                        "X": 6400,
+                        "Y": 750
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    },
+                    "RequiredFlags": [
+                        {
+                            "DataTableName": "D_DLCPackageData",
+                            "RowName": "Dangerous_Horizons"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Talents-D_TalentArchetypes.json",
+            "File_Items": [
+                {
+                    "Name": "Workshop_CarePackages",
+                    "Model": {
+                        "RowName": "Workshop"
+                    },
+                    "DisplayName": "NSLOCTEXT(\"D_TalentArchetypes\", \"Workshop_CarePackages-DisplayName\", \"Care Packages\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_Crate.Icon_Crate"
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Talents-D_TalentTrees.json",
+            "File_Items": [
+                {
+                    "Name": "Workshop_CarePackages",
+                    "BackgroundTexture": "/Game/Assets/2DArt/UI/Windows/EmptyAsset.EmptyAsset",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_Meta_Pickaxe.ITEM_Meta_Pickaxe",
+                    "Archetype": {
+                        "RowName": "Workshop_CarePackages"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Itemable.json",
+            "File_Items": [
+                {
+                    "Name": "Item_Meta_Carepackage_Larkwell",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Larkwell-DisplayName\", \"Larkwell Martinez \\\"Pioneer\\\" Care Package\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Larkwell-Description\", \"Right click to collect a carefully hand selected assortment of high quality wares from Larkwell Martinez to assist you in your first few days planetside.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Larkwell-FlavorText\", \"The contents of this package cannot be returned to the Orbital Station. Comes in a reusable crate. No refunds.\")",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Meta_Carepackage_Weapons",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Weapons-DisplayName\", \"Larkwell Martinez \\\"Pikeman\\\" Care Package\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Weapons-Description\", \"Right click to collect a small stockpile of basic but high quality weapons provided by Larkwell Martinez. This package includes melee and archery weaponry. Ammunition sold seperately.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Weapons-FlavorText\", \"The contents of this package cannot be returned to the Orbital Station. Comes in a reusable crate. No refunds.\")",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Meta_Carepackage_Ammo_Arrows",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Ammo_Arrows-DisplayName\", \"Larkwell Martinez \\\"Arrow Stockpile\\\" Care Package\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Ammo_Arrows-Description\", \"Right click to collect an assortment of basic but high quality archery ammunition provided by Larkwell Martinez. Weapons sold seperately.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Ammo_Arrows-FlavorText\", \"The contents of this package cannot be returned to the Orbital Station. No refunds.\")",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Meta_Carepackage_Agrizero",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Agrizero-DisplayName\", \"Agrizero \\\"Happy Hour\\\" Care Package\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Agrizero-Description\", \"Right click to collect a family pack of Agrizero pre-packaged meals and beverages.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Agrizero-FlavorText\", \"The contents of this package cannot be returned to the Orbital Station. Comes in a reusable crate. No refunds.\")",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Meta_Carepackage_Farmer",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Farmer-DisplayName\", \"Agrizero \\\"Grow and Go\\\" Care Package\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Farmer-Description\", \"Right click to collect a bulk pack of Agrizero pre-packaged seed packets at a discount rate.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Farmer-FlavorText\", \"The contents of this package cannot be returned to the Orbital Station. Comes in a reusable crate. No refunds.\")",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Meta_Carepackage_Medical",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Medical-DisplayName\", \"Shengong \\\"Pain And Suffering\\\" Care Package\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Medical-Description\", \"Right click to collect bulk-order of Shengong brand pre-packaged first aid kits, pre-packaged splints, and a set of advanced vaccines.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Medical-FlavorText\", \"The contents of this package cannot be returned to the Orbital Station. Comes in a reusable crate. No refunds.\")",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Meta_Carepackage_Biomass",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Biomass-DisplayName\", \"Norex \\\"Off The Record\\\" Care Package\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Biomass-Description\", \"Right click to collect bulk-order of pre-packaged excess biomass, taken directly from UDA stockpiles \\\"less than honorably\\\" and sold to prospectors loyal to Norex.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Biomass-FlavorText\", \"The contents of this package cannot be returned to the Orbital Station. Comes in a reusable crate. No refunds.\")",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Meta_Carepackage_Uranium_Raw",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Uranium_Raw-DisplayName\", \"Norex \\\"Nuke It From Orbit\\\" Care Package\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Uranium_Raw-Description\", \"Right click to collect a small batch of unprocessed nuclear material, taken directly from UDA stockpiles \\\"less than honorably\\\" and re-sold to prospectors loyal to Norex for use in any region on Icarus. Norex is not responsible for radiation based ailments you might encounter once the package is unsealed.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Uranium_Raw-FlavorText\", \"The contents of this package cannot be returned to the Orbital Station. Comes in a reusable crate. No refunds.\")",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Meta_Carepackage_PetCare",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_PetCare-DisplayName\", \"Agrizero \\\"EZ-TAME\\\" Care Package\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_PetCare-Description\", \"Right click to collect bulk-order of pre-packaged pet food and basic supplies, all sold at a discount rate. This package is only sold to select Agrizero Brand Ambassadors.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_PetCare-FlavorText\", \"The contents of this package cannot be returned to the Orbital Station. Comes in a reusable crate. No refunds.\")",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Meta_Carepackage_Excavation",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Excavation-DisplayName\", \"Inaris \\\"Digger, Please!\\\" Care Package\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Excavation-Description\", \"Right click to collect a single electronic excavation device, a portable generator, a wiring tool, and a pre-filled biofuel canister, all pre-packaged and sold at a discount rate.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Excavation-FlavorText\", \"The contents of this package cannot be returned to the Orbital Station. Comes in a reusable crate. No refunds.\")",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Meta_Carepackage_Excavation_Drilling",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Excavation_Drilling-DisplayName\", \"Inaris \\\"Drill Deep!\\\" Care Package\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Excavation_Drilling-Description\", \"Right click to collect a premium handheld deep deposit location scanner system, an electric deep drilling device, a pair of portable solar panels, and a wiring tool, all pre-packaged and sold at a discount rate.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Excavation_Drilling-FlavorText\", \"The contents of this package cannot be returned to the Orbital Station. Comes in a reusable crate. No refunds.\")",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Meta_Carepackage_MiniBase",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_MiniBase-DisplayName\", \"CHAC \\\"Cubicle\\\" Care Package\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_MiniBase-Description\", \"Right click to collect a premium prefabricated Aluminium housing kit, including the following assets: 20 Aluminium walls, 20 Aluminium floors, 20 Aluminium beams, 2 Aluminium doors, 1 Concrete furnace, 1 Composter, 1 Biofuel Oxite Dissolver, 1 Electrical Appliance Charging Device, 1 Basic battery, 2 Solar power kits, 1 Electric water pump, 1 Fabrication Bench, 1 Anvil, 1 Hydrazine Heater, 1 Hydrazine Cooker, 1 Basic Orbital Exchange Interface, 1 Prefabricated Cot, 1 Biofuel Canister, 1 Hydrazine Canister, 50 units of coal, and 1 set of assorted connection tools, all pre-packaged and sold at a discount rate.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_MiniBase-FlavorText\", \"The contents of this package cannot be returned to the Orbital Station. Comes in a reusable crate. No refunds.\")",
+                    "Weight": 25000
+                },
+                {
+                    "Name": "Item_Meta_Carepackage_MiniBase_Deluxe",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_MiniBase_Deluxe-DisplayName\", \"CHAC \\\"Condo\\\" Care Package\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_MiniBase_Deluxe-Description\", \"Right click to collect a premium prefabricated concrete housing kit, including the following assets: 20 concrete walls, 20 concrete floors, 20 concrete beams, 2 Concrete doors, 1 Concrete furnace, 1 Composter, 1 Biofuel Oxite Dissolver, 1 Electrical Appliance Charging Device, 2 Advanced battery, 1 Large Biofuel power generator, 1 Electric water pump, 1 Fabrication Bench, 1 Forge, 1 Hydrazine Heater, 1 Hydrazine Cooker, 1 Advanced Orbital Exchange Interface, 1 Prefabricated Cot, 1 Biofuel Canister, 1 Hydrazine Canister, 50 units of coal, and 1 set of assorted connection tools, all pre-packaged and sold at a discount rate.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_MiniBase_Deluxe-FlavorText\", \"The contents of this package cannot be returned to the Orbital Station. Comes in a reusable crate. No refunds.\")",
+                    "Weight": 25000
+                },
+                {
+                    "Name": "Item_Meta_Carepackage_Fuel",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Fuel-DisplayName\", \"Inaris \\\"Power Up!\\\" Care Package\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Fuel-Description\", \"Right click to collect a bundle of two Biofuel canisters, two Oil canisters, and two Hydrazine canisters, all pre-filled and sold at a discount rate.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Fuel-FlavorText\", \"The contents of this package cannot be returned to the Orbital Station. Comes in a reusable crate. No refunds.\")",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Meta_Carepackage_Ammo_Bullets",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Ammo_Bullets-DisplayName\", \"CHAC \\\"Ammo Stockpile\\\" Care Package\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+					"Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Ammo_Bullets-Description\", \"Right click to collect a modest assortment of CHAC 3d-printed ammunition, all sold at a discount rate. Firearms sold seperately.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Ammo_Bullets-FlavorText\", \"The contents of this package cannot be returned to the Orbital Station. Comes in a reusable crate. No refunds.\")",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Meta_Carepackage_Guns",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Guns-DisplayName\", \"CHAC \\\"Gunslinger\\\" Care Package\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Meta_Crate_Printed.ITEM_Meta_Crate_Printed",
+					"Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Guns-Description\", \"Right click to collect a modest assortment of CHAC 3d-printed firearms, all sold at a discount rate. Ammunition sold seperately.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Guns-FlavorText\", \"The contents of this package cannot be returned to the Orbital Station. Comes in a reusable crate. No refunds.\")",
+                    "Weight": 1000
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Consumable.json",
+            "File_Items": [
+                {
+                    "Name": "Meta_Carepackage_MiniBase_Deluxe",
+                    "Modifier": {
+                        "ModifierLifetime": 0
+                    },
+                    "Byproducts": [
+                        {
+                            "RowName": "Concrete_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Door",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Door",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Metal_Ladder",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "SplineTool_Electricity",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "SplineTool_Water",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Furnace_V2",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Workshop_Cooker",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Workshop_Heater",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Portable_Beacon",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Anvil_Bench_T3",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Metal_Oxite_Dissolver",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Water_Pump",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Kit_Generator",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Battery_Shelf_T4",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Battery_Shelf_T4",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biofuel_Can_Meta",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Workshop_Hydrazine_Container",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Coal_Set",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Cot_Printed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Advanced_Exotic_Delivery_Interface",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Crate_Printed",
+                            "DataTableName": "D_ItemTemplate"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_MiniBase",
+                    "Modifier": {
+                        "ModifierLifetime": 0
+                    },
+                    "Byproducts": [
+                        {
+                            "RowName": "Iron_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Floor",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Wall",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Beam",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Door",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Iron_Door",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Metal_Ladder",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "SplineTool_Electricity",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "SplineTool_Water",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Fabricator",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Concrete_Furnace_V2",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Workshop_Cooker",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Workshop_Heater",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Portable_Beacon",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Anvil_Bench",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Water_Pump",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Solar_Panel",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Solar_Panel",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Battery_Shelf_T3",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Composter",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Metal_Oxite_Dissolver",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biofuel_Can_Meta",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Workshop_Hydrazine_Container",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Coal_Set",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Cot_Printed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Exotic_Delivery_Interface",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Crate_Printed",
+                            "DataTableName": "D_ItemTemplate"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Excavation",
+                    "Modifier": {
+                        "ModifierLifetime": 0
+                    },
+                    "Byproducts": [
+                        {
+                            "RowName": "Extractor_Electric",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "SplineTool_Electricity",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Portable_Generator",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biofuel_Can_Meta",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Crate_Printed",
+                            "DataTableName": "D_ItemTemplate"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Excavation_Drilling",
+                    "Modifier": {
+                        "ModifierLifetime": 0
+                    },
+                    "Byproducts": [
+                        {
+                            "RowName": "Meta_Scanner_DeepOre",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Deep_Mining_Drill_Electric",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "SplineTool_Electricity",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Solar_Panel",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Solar_Panel",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Crate_Printed",
+                            "DataTableName": "D_ItemTemplate"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Larkwell",
+                    "Modifier": {
+                        "ModifierLifetime": 0
+                    },
+                    "Byproducts": [
+                        {
+                            "RowName": "Meta_Larkwell_Backpack_Beta",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Carbon_Armor_Helmet_Alpha",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Carbon_Armor_Chest_Alpha",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Carbon_Armor_Arms_Alpha",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Carbon_Armor_Legs_Alpha",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Carbon_Armor_Feet_Alpha",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Spear_Larkwell",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Knife_Larkwell",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Axe_Larkwell",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Pickaxe_Larkwell",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Sickle_Larkwell",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Hammer_Larkwell",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Canteen_Larkwell",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Oxygen_Tank_Larkwell",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Crate_Printed",
+                            "DataTableName": "D_ItemTemplate"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Agrizero",
+                    "Modifier": {
+                        "ModifierLifetime": 0
+                    },
+                    "Byproducts": [
+                        {
+                            "RowName": "Meta_Super_Ration",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Super_Ration",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Super_Ration",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Super_Ration",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Super_Ration",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Super_Ration",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Soda",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Soda",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Soda",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Soda",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Soda",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Soda",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Crate_Printed",
+                            "DataTableName": "D_ItemTemplate"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Medical",
+                    "Modifier": {
+                        "ModifierLifetime": 0
+                    },
+                    "Byproducts": [
+                        {
+                            "RowName": "Workshop_Dressing_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Workshop_Dressing_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Workshop_Dressing_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Splint_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Splint_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Splint_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Blood_Thinning_Vaccine_Charlie",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Antipoison_Vaccine_Charlie",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Antiparasitic_Vaccine_Charlie",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Antibiotic_Vaccine_Charlie",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Crate_Printed",
+                            "DataTableName": "D_ItemTemplate"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Biomass",
+                    "Modifier": {
+                        "ModifierLifetime": 0
+                    },
+                    "Byproducts": [
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biomass",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Crate_Printed",
+                            "DataTableName": "D_ItemTemplate"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Uranium_Raw",
+                    "Modifier": {
+                        "ModifierLifetime": 0
+                    },
+                    "Byproducts": [
+                        {
+                            "RowName": "Uranium_Raw",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Uranium_Raw",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Uranium_Raw",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Uranium_Raw",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Uranium_Raw",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Uranium_Raw",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Uranium_Raw",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Uranium_Raw",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Uranium_Raw",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Uranium_Raw",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Uranium_Raw",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Uranium_Raw",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Uranium_Raw",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Uranium_Raw",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Uranium_Raw",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Uranium_Raw",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Uranium_Raw",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Uranium_Raw",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Uranium_Raw",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Uranium_Raw",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Crate_Printed",
+                            "DataTableName": "D_ItemTemplate"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Guns",
+                    "Modifier": {
+                        "ModifierLifetime": 0
+                    },
+                    "Byproducts": [
+                        {
+                            "RowName": "Pistol_CHAC",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Pistol_CHAC",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Shotgun_CHAC",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Shotgun_CHAC",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Rifle_CHAC",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Rifle_CHAC",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Crate_Printed",
+                            "DataTableName": "D_ItemTemplate"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Weapons",
+                    "Modifier": {
+                        "ModifierLifetime": 0
+                    },
+                    "Byproducts": [
+                        {
+                            "RowName": "Meta_Spear_Larkwell",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Spear_Larkwell",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Spear_Larkwell",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Spear_Larkwell",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Bow_Larkwell",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Bow_Larkwell",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Bow_Larkwell",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Bow_Larkwell",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Crate_Printed",
+                            "DataTableName": "D_ItemTemplate"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Ammo_Bullets",
+                    "Modifier": {
+                        "ModifierLifetime": 0
+                    },
+                    "Byproducts": [
+                        {
+                            "RowName": "Ammo_Sniper_Round_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_Sniper_Round_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_Sniper_Round_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_Sniper_Round_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_Sniper_Round_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_Rifle_Round_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_Rifle_Round_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_Rifle_Round_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_Rifle_Round_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_Rifle_Round_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_AssaultRifle_Round_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_AssaultRifle_Round_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_AssaultRifle_Round_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_AssaultRifle_Round_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_AssaultRifle_Round_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_Pistol_Round_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_Pistol_Round_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_Pistol_Round_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_Pistol_Round_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_Pistol_Round_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_Shell_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_Shell_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_Shell_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_Shell_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Ammo_Shell_Workshop_Bundle",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Crate_Printed",
+                            "DataTableName": "D_ItemTemplate"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Ammo_Arrows",
+                    "Modifier": {
+                        "ModifierLifetime": 0
+                    },
+                    "Byproducts": [
+                        {
+                            "RowName": "Meta_Bolt_Set_Larkwell_Piercing",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Bolt_Set_Larkwell_Piercing",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Bolt_Set_Larkwell_Piercing",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Bolt_Set_Larkwell_Piercing",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Bolt_Set_Larkwell_Piercing",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Bolt_Set_Larkwell_Piercing",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Arrow_Set_Larkwell_Standard",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Arrow_Set_Larkwell_Standard",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Arrow_Set_Larkwell_Standard",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Arrow_Set_Larkwell_Standard",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Arrow_Set_Larkwell_Standard",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Arrow_Set_Larkwell_Standard",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Crate_Printed",
+                            "DataTableName": "D_ItemTemplate"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Farmer",
+                    "Modifier": {
+                        "ModifierLifetime": 0
+                    },
+                    "Byproducts": [
+                        {
+                            "RowName": "Meta_Pumpkin_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Corn_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Carrot_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Carrot_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Mushroom_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Berry_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Wheat_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Watermelon_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Bean_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Avocado_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Rhubarb_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Strawberry_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Kumara_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Yeast_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Lily_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Cocao_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Coffee_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_GreenTea_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_WildTea_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Fiber_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Tomato_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Potato_Seed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Crate_Printed",
+                            "DataTableName": "D_ItemTemplate"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Repairs",
+                    "Modifier": {
+                        "ModifierLifetime": 0
+                    },
+                    "Byproducts": [
+                        {
+                            "RowName": "Meta_Repair_Item_Pack",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Repair_Item_Pack",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Repair_Item_Pack",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Repair_Item_Pack",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Repair_Item_Pack",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Crate_Printed",
+                            "DataTableName": "D_ItemTemplate"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_PetCare",
+                    "Modifier": {
+                        "ModifierLifetime": 0
+                    },
+                    "Byproducts": [
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Feed_High_Quality",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Food_Trough",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Water_Trough",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Animal_Bed",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Crate_Printed",
+                            "DataTableName": "D_ItemTemplate"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Carepackage_Fuel",
+                    "Modifier": {
+                        "ModifierLifetime": 0
+                    },
+                    "Byproducts": [
+                        {
+                            "RowName": "Workshop_Hydrazine_Container",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Workshop_Hydrazine_Container",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Oil_Can_Meta",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Oil_Can_Meta",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biofuel_Can_Meta",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Biofuel_Can_Meta",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        {
+                            "RowName": "Meta_Crate_Printed",
+                            "DataTableName": "D_ItemTemplate"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CurrentFile": "EndOfMod"
+        }
+    ]
+}
